@@ -1,0 +1,94 @@
+html {
+	/*background: #eee;*/
+	background: #fff;
+	font-family: verdana;
+	font-size: 14px;
+}
+
+body{
+
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 960px;
+}
+
+h1,h2,h3 { 
+	display: inline-block;
+	color: #420;
+	}
+a { text-decoration: none; color: inherit;}
+
+form,label, input{ display: block;}
+
+
+
+#headWrapper {
+	display: block;
+	width: 960px;
+	height: 80px;
+	line-height: 62px;
+	border-bottom: 2px solid #000;  
+}
+
+#mainMenu {
+	padding:0;
+	margin: auto 0;
+	list-style: none;
+	}
+#mainMenu > li {
+	background-color: #fff;
+	float:left;
+	width: 172px;
+	height: 50px;
+	line-height: 25px;
+	padding: 5px 10px;
+	margin: 5px 0;
+	cursor: pointer;
+	text-align: center;
+	}
+#mainMenu > li:hover > ul {
+	opacity: 1;
+}
+
+#mainMenu > li > ul {
+	background-color: #fff;
+	opacity: 0;
+	list-style: none;
+	margin: -2px 0 0 -10px;
+	text-align: center;
+	padding:0;
+	width: 192px;
+	font: 18px sans-serif;
+	}
+#mainMenu li > ul > li {
+	padding: 10px 10px;
+	margin: 0;
+	border-bottom: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+}
+
+#mainMenu li:hover {
+	background-color: #888;
+	}
+
+
+.header {
+	font-size: 30px;
+	padding: 10px 5px; 
+	
+}
+.imp-span { font-weight: bold;}
+.planetInfo {
+	display: inline-block;
+	
+}
+.btn-block { display: block;}
+.planetTableFont {
+	font-size: 15px;
+}
+.planetTableFont td:first-child { font-weight: bold;}
+.planetTableFont td{ line-height: 30px!important;}
+
+.display-inline { display: inline-block;}
+.floating { float: left; padding: 5px;}
